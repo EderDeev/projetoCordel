@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+* {
+    margin: 0;
+}
+#cabecalho{
+
+    background-color: black;
+    width: 100vw;
+    height: 30vh;
+    
+}
+
+#cabecalho > h1 {
+    color: white;
+    text-align: center;
+    font-size: 96px;
+    font-family: 'Passion One', cursive;
+    padding-top: 40px;
+    font-weight: normal;
+}
+
+#cabecalho > p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.linkAutor {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    
+} 
+
+  a:hover{
+    text-decoration: underline;
+}
+
+div.parte1Texto{
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 100vh;
+}
+
+.parte1Texto > p {
+    font-size: 32px;
+    font-family: 'Sriracha', cursive;
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-bottom: 200px;
+
+}
+
+.parte2Texto{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-image: url('imagens/background001.jpg');
+    background-position: center right;
+    background-attachment: fixed;
+    display: flex;
+    position: relative;
+    
+}
+
+.quadroTransparente {
+   
+    background-color: rgba(0, 3, 2, 0.432);
+    width: 400px;
+    height: 430px;
+    display: flex;
+    position: absolute;
+    left: 3%;
+    bottom: 10%;
+    
+
+}
+.quadroTransparente > p { 
+    color: white;
+    font-family: 'Sriracha', cursive;
+    font-size: 32px;
+    
+    
+
+
+}
+
+
+
+
+.parte3Texto{
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 160vh;
+}
+.parte3Texto >p {
+    color: rgb(0, 0, 0);
+    font-family: 'Sriracha', cursive;
+    font-size: 32px;
+    padding-left: 30px;
+    padding-top: 60px;
+}
+.espacamentoP2{
+    padding-top: 40px;
+}
+
+.parte4Texto{
+    width: 100vw;
+    height: 90vh;
+    background-color: black;
+    background-image: url('imagens/background002.jpg');
+    background-position: center right;
+    background-attachment: fixed;
+    display: flex;
+    position: relative;
+}
+.parte5Texto{
+    width: 100vw;
+    height: 170vh;
+    background-color: white;
+}
+
+.parte5Texto >p {
+    color: rgb(0, 0, 0);
+    font-family: 'Sriracha', cursive;
+    font-size: 32px;
+    padding-left: 30px;
+    padding-top: 60px;
+}
+
+footer{
+    width: 100vw;
+    height: 5vh;
+    background-color: black;
+}
+footer > p{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
