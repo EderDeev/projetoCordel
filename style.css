@@ -4,7 +4,13 @@
 
 * {
     margin: 0;
+    
 }
+
+body{
+    min-height: 100vh;
+}
+
 #cabecalho{
 
     background-color: black;
@@ -16,7 +22,7 @@
 #cabecalho > h1 {
     color: white;
     text-align: center;
-    font-size: 96px;
+    font-size: 9vw;
     font-family: 'Passion One', cursive;
     padding-top: 40px;
     font-weight: normal;
@@ -44,6 +50,8 @@ div.parte1Texto{
     background-color: rgb(255, 255, 255);
     max-width: 100vw;
     max-height: 100vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 .parte1Texto > p {
@@ -62,6 +70,7 @@ div.parte1Texto{
     background-color: black;
     background-image: url('imagens/background001.jpg');
     background-position: center right;
+    background-size: cover;
     background-attachment: fixed;
     display: flex;
     position: relative;
@@ -117,6 +126,7 @@ div.parte1Texto{
     background-color: black;
     background-image: url('imagens/background002.jpg');
     background-position: center right;
+    background-size: cover;
     background-attachment: fixed;
     display: flex;
     position: relative;
